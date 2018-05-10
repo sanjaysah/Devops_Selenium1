@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class Selenium_test {
 	@Test 
-	public static void seleniumTest() { 
+	public void seleniumTest() { 
 	System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Driver\\chromedriver.exe");
 	ChromeOptions chromeOptions = new ChromeOptions(); 
 	WebDriver driver = new ChromeDriver(chromeOptions); 
@@ -26,6 +26,7 @@ public class Selenium_test {
 	driver.findElement(By.id("gwt-uid-13")).sendKeys("01/01/2015"); 
 	driver.findElement(By.className("v-button-primary")).click(); 
 	//Thread.sleep(5000); 
-	driver.quit(); }
+	driver.quit(); 
+	}
 
 }
