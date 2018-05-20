@@ -15,7 +15,7 @@ public class SeleniumCaseStudy {
 	WebDriver driver;
 	@Test 
 	public void seleniumTest() { 
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
 		ChromeOptions chromeOptions = new ChromeOptions(); 
 		driver = new ChromeDriver(chromeOptions); 
 		//String url = "http://localhost:9090/addressbook";

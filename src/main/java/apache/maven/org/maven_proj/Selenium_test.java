@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Selenium_test {
 	@Test 
 	public void seleniumTest() { 
-	System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Driver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
 	ChromeOptions chromeOptions = new ChromeOptions(); 
 	WebDriver driver = new ChromeDriver(chromeOptions); 
 	System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
