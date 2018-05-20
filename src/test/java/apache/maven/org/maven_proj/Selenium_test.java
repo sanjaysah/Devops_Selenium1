@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Selenium_test {
 	@Test 
 	public void seleniumTest() { 
-	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\geckodriver.exe");
+	System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Driver\\geckodriver.exe");
 	FirefoxOptions firefoxOptions = new FirefoxOptions(); 
 	WebDriver driver = new FirefoxDriver(firefoxOptions); 
 	System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
