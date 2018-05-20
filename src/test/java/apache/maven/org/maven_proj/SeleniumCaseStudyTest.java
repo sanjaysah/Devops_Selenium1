@@ -15,7 +15,7 @@ public class SeleniumCaseStudyTest {
 	WebDriver driver;
 	@Test 
 	public void seleniumTest() { 
-		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Driver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//Driver//geckodriver.exe");
 		FirefoxOptions firefoxOptions = new FirefoxOptions(); 
 		driver = new FirefoxDriver(firefoxOptions); 
 		//String url = "http://localhost:9090/addressbook";
