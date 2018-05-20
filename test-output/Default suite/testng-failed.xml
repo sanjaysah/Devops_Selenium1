@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="apache.maven.org.maven_proj.Selenium_test">
+      <class name="apache.maven.org.maven_proj.SeleniumCaseStudy">
         <methods>
           <include name="seleniumTest"/>
+          <include name="after"/>
         </methods>
-      </class> <!-- apache.maven.org.maven_proj.Selenium_test -->
+      </class> <!-- apache.maven.org.maven_proj.SeleniumCaseStudy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
