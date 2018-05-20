@@ -6,18 +6,18 @@ import junit.framework.Assert;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-public class SeleniumCaseStudy {
+public class SeleniumCaseStudyTest {
 	WebDriver driver;
 	@Test 
 	public void seleniumTest() { 
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
-		ChromeOptions chromeOptions = new ChromeOptions(); 
-		driver = new ChromeDriver(chromeOptions); 
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\geckodriver.exe");
+		FirefoxOptions firefoxOptions = new FirefoxOptions(); 
+		driver = new FirefoxDriver(firefoxOptions); 
 		//String url = "http://localhost:9090/addressbook";
 		driver.get("http://facebook.com");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); 

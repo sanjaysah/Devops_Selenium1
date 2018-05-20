@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26706" started-at="2018-05-20T11:27:35Z" finished-at="2018-05-20T11:28:01Z">
+  <suite name="Default suite" duration-ms="53109" started-at="2018-05-20T22:20:30Z" finished-at="2018-05-20T22:21:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26706" started-at="2018-05-20T11:27:35Z" finished-at="2018-05-20T11:28:01Z">
-      <class name="apache.maven.org.maven_proj.SeleniumCaseStudy">
-        <test-method status="PASS" signature="seleniumTest()[pri:0, instance:apache.maven.org.maven_proj.SeleniumCaseStudy@64bfbc86]" name="seleniumTest" duration-ms="26589" started-at="2018-05-20T16:57:35Z" finished-at="2018-05-20T16:58:01Z">
+    <test name="Default test" duration-ms="53109" started-at="2018-05-20T22:20:30Z" finished-at="2018-05-20T22:21:23Z">
+      <class name="apache.maven.org.maven_proj.SeleniumCaseStudyTest">
+        <test-method status="PASS" signature="seleniumTest()[pri:0, instance:apache.maven.org.maven_proj.SeleniumCaseStudyTest@64bfbc86]" name="seleniumTest" duration-ms="53028" started-at="2018-05-21T03:50:30Z" finished-at="2018-05-21T03:51:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seleniumTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:apache.maven.org.maven_proj.SeleniumCaseStudy@64bfbc86]" name="after" is-config="true" duration-ms="1" started-at="2018-05-20T16:58:01Z" finished-at="2018-05-20T16:58:01Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:apache.maven.org.maven_proj.SeleniumCaseStudyTest@64bfbc86]" name="after" is-config="true" duration-ms="1" started-at="2018-05-21T03:51:23Z" finished-at="2018-05-21T03:51:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- apache.maven.org.maven_proj.SeleniumCaseStudy -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- apache.maven.org.maven_proj.SeleniumCaseStudyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

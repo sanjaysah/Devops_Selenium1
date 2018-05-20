@@ -4,16 +4,16 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.Test;
 
 public class Selenium_test {
 	@Test 
 	public void seleniumTest() { 
-	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
-	ChromeOptions chromeOptions = new ChromeOptions(); 
-	WebDriver driver = new ChromeDriver(chromeOptions); 
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Driver\\geckodriver.exe");
+	FirefoxOptions firefoxOptions = new FirefoxOptions(); 
+	WebDriver driver = new FirefoxDriver(firefoxOptions); 
 	System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
 	//String url = "http://localhost:9090/addressbook";
 	driver.get("http://localhost:9090/addressbook");
